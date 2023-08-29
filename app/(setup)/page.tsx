@@ -7,7 +7,7 @@ const SetupPage = async () => {
     if (server) return redirect(`/servers/${server.id}`)
   return (
     <div>
-      create a server
+      create a server page
     </div>
   )
 }
